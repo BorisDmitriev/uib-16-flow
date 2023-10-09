@@ -1,0 +1,30 @@
+.esports-info, .esports-tournaments{
+  
+  overflow: scroll;
+}
+
+.esports-info {
+  display: inline-block;
+
+  height: 45vh;
+  width: 25vw;
+
+  border: 3px solid #777;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.esports-tournaments img {
+  width: 20%;
+  height: 50%;
+  float: left;
+}
+
+.esports-tournaments{
+  width: 50%;
+  aspect-ratio: 3/1;
+}
